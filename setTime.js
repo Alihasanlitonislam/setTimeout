@@ -21,3 +21,20 @@ const pitlu = (array, callback = function () { }) => {
     return data
 }
 console.log(pitlu(options, x => x.toUpperCase()))
+//heiyar data arra  function add to setTimeout 
+const anfrist = (anfrist) => {
+    const anlest = (anlest) => {
+        const anfull = (anfull) => {
+            const data = (data) => {
+                return `hay anfrist name ${anfrist} neck name ${anlest} and anfull name ${anfull} welcome to ${data}`
+            }
+            return data
+        }
+        return anfull
+    }
+    return anlest
+}
+const hello = anfrist("ali");
+const word = hello("hasan");
+const data = word("liton islam")
+console.log(data("bangladesh"))
