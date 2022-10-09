@@ -4,7 +4,7 @@ setTimeout(function(){
 //setTimeout 2
 function getData(words){
   setTimeout(function(){
-    words(" i am learn progrem in javascript") //এখানে return ও কাজ করবে
+    words(" i am learn progrem in javascript") //এখানে return ও কাজ করবে যেমন return words("i am learn progrem in js")
   },3000)
 }
 getData(function(data){
