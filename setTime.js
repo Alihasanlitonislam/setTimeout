@@ -36,5 +36,5 @@ const anfrist = (anfrist) => {
 }
 const hello = anfrist("ali");
 const word = hello("hasan");
-const data = word("liton islam")
-console.log(data("bangladesh"))
+const data = word("liton islam");
+console.log(data("bangladesh"));
